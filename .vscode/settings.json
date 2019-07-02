@@ -1,0 +1,7 @@
+{
+  "appService.zipIgnorePattern": [
+    ".vscode{,/**}"
+  ],
+  "appService.defaultWebAppToDeploy": "/subscriptions/f15e21c3-0cbf-4170-80a6-054b82e916bb/resourceGroups/appsvc_rg_linux_centralus/providers/Microsoft.Web/sites/LLPhotosAPI",
+  "appService.deploySubpath": ""
+}

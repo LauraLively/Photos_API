@@ -1,7 +1,8 @@
 var express = require('express');
 var router = express.Router();
 // db stuff
-const db = require('monk')('mongodb://localhost:27017/photos');
+// const db = require('monk')('localhost:27017/photos');
+const db = require('monk')('mongodb://Laura:Helio1234@helio-shard-00-00-fphgm.mongodb.net:27017,helio-shard-00-01-fphgm.mongodb.net:27017,helio-shard-00-02-fphgm.mongodb.net:27017/photos?ssl=true&replicaSet=Helio-shard-0&authSource=admin&retryWrites=true');
 const photos = db.get('photos');
 
 //get Photos
